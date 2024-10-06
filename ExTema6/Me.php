@@ -1,6 +1,8 @@
 <?php
-__LINE__ //Devuelve la linia donde este la constante
-__FILE__ // ruta completa
+
+//Variables superglobals
+/*__LINE__ //Devuelve la linia donde este la constante
+_FILE__ // ruta completa
 __DIR__ //directorio de archivo +directo
 __FUNCTION__ // Nombre de la funcion
 __CLASS__ // nombre de la classe
@@ -8,7 +10,7 @@ __METHOD__ //nombre del metodo
 __NAMESPACE__ // devuelve el nombre del namespace  = namespace SitioWeb;
 
 ===============================
-
+//MetodosMagicos
 __construct() //de una clase se ejecuta cuando se crear una instancia
 __destruct() // cuando un ojecto es destruido ej : unset ($cuenta);
 __get() // para acceder una propiedad de un objecto (no se puede acceder o no existe)
@@ -21,5 +23,5 @@ __toString() // cuando se utiliza una cadena
 __invoke() // un objecto se trata como una funcion
 __clone() // cuando se clona un objeto ej: cuenta1 / cuenta2 = clone $cuenta1;
 __debugInfo() // personaliza la salida  ej: return ["paga impuestos" =>$this->sueldo >= 20000,]
-
+*/
 ?>
